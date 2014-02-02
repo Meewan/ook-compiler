@@ -1,4 +1,4 @@
-;documentation de l'api:
+﻿;documentation de l'api:
 ;les arguments des fonctions passent en A
 ;les valeurs de retours sont passé en A
 
@@ -159,6 +159,3 @@ set PC,putchar_function_scroll_loop
 ;programme compilé
 ;-----------------------------------------------------------
 :program
-SET A,'H'
-JSR [putchar]
-set pc,crash ;placeholder du programme
