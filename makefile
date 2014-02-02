@@ -68,7 +68,7 @@
 #
 # The Caml sources (including camlyacc and camllex source files)
 
-SOURCES =
+SOURCES = compile.ml
 
 # The executable file to generate (default a.out under Unix)
 
